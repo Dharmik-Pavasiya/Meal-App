@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
               ),
               headline6: const TextStyle(
                 fontSize: 20,
-                // fontFamily: 'RobotoCondensed',
+                fontFamily: 'Raleway',
                 fontWeight: FontWeight.bold
               ),
             ),
