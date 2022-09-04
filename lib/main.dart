@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:meal_app/pages/categories_page.dart';
+import 'package:meal_app/pages/category_meal_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -22,34 +23,17 @@ class MyApp extends StatelessWidget {
               ),
               headline6: const TextStyle(
                 fontSize: 20,
-                fontFamily: 'Raleway',
+                fontFamily: 'Ralewayx',
                 fontWeight: FontWeight.bold
               ),
             ),
       ),
       title: 'DeliMeals',
-      home: const CategoriesScreen(),
-    );
-  }
-}
-
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key}) : super(key: key);
-
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('DeliMeals'),
-      ),
-      body: const Center(
-        child: Text('Navigation Time'),
-      ),
+      initialRoute: '/',
+      routes: {
+        '/' : (context) => const CategoriesScreen(),
+        '/category-meals' : (context) => const CategoryMealsPage()
+      },
     );
   }
 }

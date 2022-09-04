@@ -9,6 +9,7 @@ class CategoriesScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         title: const Text('DeliMeals',style: TextStyle(fontWeight: FontWeight.normal),),
       ),
       body: GridView(
