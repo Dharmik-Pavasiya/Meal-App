@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:meal_app/pages/categories_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -8,7 +9,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'DeliMeals',
-      home: MyHomePage(),
+      home: CategoriesScreen(),
     );
   }
 }
