@@ -8,51 +8,62 @@ const DUMMY_CATEGORIES = [
     id: 'c1',
     title: 'Italian',
     color: Colors.purple,
+    imageUrl: 'https://media.istockphoto.com/photos/top-view-table-full-of-food-picture-id1220017909?k=20&m=1220017909&s=612x612&w=0&h=PYV24uLjiGSd-kw5ArdAiQIcy5E-CmL2pznQo35kcHw='
   ),
   Category(
     id: 'c2',
     title: 'Quick & Easy',
     color: Colors.red,
+    imageUrl: 'https://www.parents.com/thmb/IqJIkX5ekPpFLFOAnA4qreN7HwE=/364x242/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/martha_marley_spoon_baked_chicken_margherita_family_meal-561505aeca3f401a82e84ffeacee2efa.jpg'
   ),
   Category(
     id: 'c3',
     title: 'Hamburgers',
     color: Colors.orange,
+    imageUrl: 'https://recipe-graphics.grocerywebsite.com/0_GraphicsRecipes/4589_4k.jpg'
   ),
   Category(
     id: 'c4',
     title: 'German',
     color: Colors.amber,
+    imageUrl: 'https://www.chefspencil.com/wp-content/uploads/All-Aspects-of-German-Cuisine.jpg.webp'
   ),
   Category(
     id: 'c5',
     title: 'Light & Lovely',
     color: Colors.blue,
+    imageUrl: 'https://mediacdn.grabone.co.nz/asset/OTCxG0lgYV/box=615x0'
   ),
   Category(
     id: 'c6',
     title: 'Exotic',
     color: Colors.green,
+    imageUrl: 'https://media.istockphoto.com/photos/assortment-of-exotic-grilled-and-baked-asian-food-in-hanoi-picture-id1136179467?b=1&k=20&m=1136179467&s=170667a&w=0&h=NyaoF5w-fcdrqiWzPDOMv07DuxApbCuTtUbdeRrQx-k='
+
   ),
   Category(
     id: 'c7',
     title: 'Breakfast',
     color: Colors.lightBlue,
+    imageUrl: 'https://media.istockphoto.com/photos/breakfast-feast-picture-id531306158?k=20&m=531306158&s=612x612&w=0&h=SV2hTLHuKAQaJzDSgLw41pYVLqxDIrRbv-LW4RB9wWI='
   ),
   Category(
     id: 'c8',
     title: 'Asian',
     color: Colors.lightGreen,
+    imageUrl: 'https://media.istockphoto.com/photos/chinese-food-blank-background-picture-id545286388?k=20&m=545286388&s=612x612&w=0&h=1zAWEuV5W6SoYtErOkWasELFcAWMKgQEBUsNOoH5znc='
   ),
   Category(
     id: 'c9',
     title: 'French',
     color: Colors.pink,
+    imageUrl: 'https://www.chefspencil.com/wp-content/uploads/French-Foods.jpg.webp'
   ),
   Category(
     id: 'c10',
     title: 'Summer',
     color: Colors.teal,
+    imageUrl: 'https://img.fresherslive.com/latestnews/images/articles/width-900/2020/12/10/i-am-edible-pink-and-a-great-summer-food-what-am-i-riddle-5fd1b6bbc91ca-1607579323.webp'
   ),
 ];
 
