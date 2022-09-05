@@ -47,16 +47,21 @@ class MealDetailsPage extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            Container(
-              height: 300,
-              width: double.infinity,
-              child: Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: ClipRRect(
-                  borderRadius: BorderRadius.circular(30),
-                  child: Image.network(
-                    selectedMeal.imageUrl,
-                    fit: BoxFit.cover,
+            Card(
+              elevation: 4,
+              // color: Colors.black54,
+              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
+              child: Container(
+                height: 300,
+                width: double.infinity,
+                child: Padding(
+                  padding: const EdgeInsets.all(3.0),
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(30),
+                    child: Image.network(
+                      selectedMeal.imageUrl,
+                      fit: BoxFit.cover,
+                    ),
                   ),
                 ),
               ),

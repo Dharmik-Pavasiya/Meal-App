@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:meal_app/pages/categories_page.dart';
 import 'package:meal_app/pages/category_meal_page.dart';
 import 'package:meal_app/pages/meal_details_page.dart';
+import 'package:meal_app/pages/tab_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -29,10 +30,10 @@ class MyApp extends StatelessWidget {
               ),
             ),
       ),
-      title: 'DeliMeals',
+      title: 'Foodies',
       initialRoute: '/',
       routes: {
-        '/' : (context) => const CategoriesScreen(),
+        '/' : (context) => const TabsPage(),
         '/category-meals' : (context) => const CategoryMealsPage(),
         '/meal-details' : (context) => const MealDetailsPage()
       },
