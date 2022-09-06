@@ -35,18 +35,6 @@ class CategoryItem extends StatelessWidget {
             ClipRRect(
               borderRadius: BorderRadius.circular(15),
               child: Container(
-                  // padding: const EdgeInsets.all(15),
-                  decoration: BoxDecoration(
-                    gradient: LinearGradient(
-                      colors: [
-                        color.withOpacity(0.7),
-                        color,
-                      ],
-                      begin: Alignment.topLeft,
-                      end: Alignment.bottomRight,
-                    ),
-                    // borderRadius: BorderRadius.circular(15),
-                  ),
                   child: Image.network(
                     imageUrl,
                     width: double.infinity,
